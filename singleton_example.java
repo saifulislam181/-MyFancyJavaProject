@@ -1,5 +1,3 @@
-package creational.pattern;
-
 class DbConnection{
 
     private static DbConnection instance=null;
@@ -38,9 +36,9 @@ class Test
 {
 	 public static void main(String[] args) throws Exception
 	 {
-		 String dbUser="admin";
-		 String dbPassword="admin";
-		 String dbName="tesDb";
+		 String dbUser="saiful";
+		 String dbPassword="joyshree";
+		 String dbName="Infinite";
 		 DbConnection connection=DbConnection.getDbConnection(dbUser, dbPassword, dbName);
 	 }
 }
